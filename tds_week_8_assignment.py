@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title('Webapp to calculate largest of 3 numbers')
+st.title('Calculate the largest Number amongst the three!')
 
-st.header('_Enter your inputs here:_ ')
+st.header('_Enter your numbers here:_ ')
 
 number1 = st.number_input('Insert first number')
 number2 = st.number_input('Insert second number')
