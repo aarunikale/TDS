@@ -13,5 +13,5 @@ def maximum():
     a = max(lis)
     st.success(f"Maximum = {a}")
 
-if st.button("Calculate result"):
+if st.button("Calculate"):
     maximum()
